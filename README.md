@@ -2,4 +2,4 @@
 
 Made with basic HTML, CSS and JS.
 
-danb.nz
+http://danb.nz
