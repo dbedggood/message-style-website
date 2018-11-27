@@ -29,7 +29,7 @@ body {
 
 /* Smaller screens */
 
-@media (max-width: 1200px){ 
+@media (max-width: 1200px), (max-height: 900px) { 
     .message {
         font-size: 30px;
         padding: 0 20px 0 15px;
@@ -48,7 +48,7 @@ body {
 }
 
 
-@media (max-width: 900px){ 
+@media (max-width: 950px), (max-height: 750px) { 
     .message {
         font-size: 20px;
         padding: 0 15px 0 10px;
@@ -66,7 +66,7 @@ body {
 
 }
 
-@media (max-width: 700px){ 
+@media (max-width: 650px), (max-height: 550px) { 
     .message {
         font-size: 15px;
         padding: 0 10px 0 10px;
@@ -84,7 +84,7 @@ body {
 
 }
 
-@media (max-width: 500px){ 
+@media (max-width: 500px), (max-height: 450px) { 
     .message {
         font-size: 10px;
         padding: 0 10px 0 8px;
