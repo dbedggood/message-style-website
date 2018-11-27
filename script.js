@@ -1,3 +1,5 @@
+"use strict";
+
 //on load
 $(document).ready(function(){
     
