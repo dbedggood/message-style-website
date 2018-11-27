@@ -5,7 +5,7 @@ $(document).ready(function(){
     
     // hide all messages
     for (let index = 1; index <= 8; index++) {
-        $("#message" + index).hide()
+        $("#message" + index).hide();
     }
     
     // begin sending messages
