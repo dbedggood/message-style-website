@@ -1,8 +1,22 @@
 "use strict";
 
-var basicTimeline = anime.timeline();
+var messageTimeline = anime.timeline();
 
-basicTimeline
+var bubblesMoving = anime({
+  targets: 'span.bubble',
+  translateY: [
+      { value: -10, duration: 300 },
+      { value: 0, duration: 600 },
+  ],
+  easing: 'easeInOutCubic',
+  delay: function(element, iteration, totalTargets) {
+      return iteration * 100
+  },
+  loop: true
+});
+
+
+messageTimeline
   .add({
     targets: '.messages #message1',
     translateX: 1000,
