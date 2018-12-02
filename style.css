@@ -32,8 +32,21 @@ body {
 
 .message p {
     margin: 0 -0.1em;
-    padding: 0.2em;
+    padding: 0.2em 0.1em;
     background-color: rgb(230, 230, 230);
+}
+
+.message.bubbles {
+    left: -5.4em;
+}
+
+.message span {
+    display: inline-block;
+    background-color: #B6B5BA;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 100%;
+    margin: 0.05em;
 }
 
 /* Smaller screens */
