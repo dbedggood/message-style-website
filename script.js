@@ -5,7 +5,7 @@ var messageTimeline = anime.timeline();
 var bubblesMoving = anime({
   targets: 'span.bubble',
   translateY: [
-      { value: -10, duration: 300 },
+      { value: "-0.4em", duration: 300 },
       { value: 0, duration: 600 },
   ],
   easing: 'easeInOutCubic',
