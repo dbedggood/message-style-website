@@ -46,7 +46,7 @@ body {
     width: 0.5em;
     height: 0.5em;
     border-radius: 100%;
-    margin-left: 0.1em;
+    margin: 0.05em;
 }
 
 /* Smaller screens */
