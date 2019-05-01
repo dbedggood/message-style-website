@@ -49,4 +49,16 @@ messageTimeline
     targets: '.messages #message8',
     translateX: 1000,
     easing: 'easeOutExpo'
-  });
+  })
+  .add({
+    targets: '.cvButton button',
+    scale: [
+      { value: 0, duration: 300 },
+      { value: 1, duration: 1000 },
+    ],
+    opacity: [
+      { value: 0, duration: 300 },
+      { value: 1, duration: 1000 }
+    ],
+    elasticity: 200
+  });;

@@ -21,6 +21,7 @@ body {
 
 .cvButton button{
     display: inline-block;
+    opacity: 0;
     padding: 1em;
     font-size: 1em;
     cursor: pointer;
@@ -73,10 +74,6 @@ body {
     margin: 0 -0.1em;
     padding: 0.2em 0.1em;
     background-color: rgb(230, 230, 230);
-}
-
-.message.bubbles {
-    left: -5.4em;
 }
 
 .message span {
