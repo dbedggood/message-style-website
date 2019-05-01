@@ -91,7 +91,7 @@ body {
 /* Smaller screens */
 
 @media (max-width: 800px), (max-height: 800px) { 
-    .message, {
+    .message {
         font-size: 1.75em;
     }
 
