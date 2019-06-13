@@ -9,22 +9,21 @@ messageTimeline
   .add({
     targets: '.messages #message1',
     translateX: 1000,
-    offset: '+=300'
   })
   .add({
     targets: '.messages #message2',
     translateX: 1000,
-    offset: '+=300'
+    offset: '+=200'
   })
   .add({
     targets: '.messages #message3',
     translateX: 1000,
-    offset: '+=1000'
+    offset: '+=600'
   })
   .add({
     targets: '.messages #message4',
     translateX: 1000,
-    offset: '+=1000'
+    offset: '+=600'
   })
   .add({
     targets: '.messages #message5',
@@ -33,7 +32,7 @@ messageTimeline
   .add({
     targets: '.messages #message6',
     translateX: 1000,
-    offset: '+=500'
+    offset: '+=400'
   })
   .add({
     targets: '.messages #message7',
