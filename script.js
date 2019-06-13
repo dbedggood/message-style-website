@@ -43,15 +43,3 @@ messageTimeline
     targets: '.messages #message8',
     translateX: 1000
   })
-  .add({
-    targets: '.cvButton button',
-    scale: [
-      { value: 0, duration: 300 },
-      { value: 1, duration: 800 },
-    ],
-    opacity: [
-      { value: 0, duration: 300 },
-      { value: 1, duration: 800 }
-    ],
-    elasticity: 200
-  });
